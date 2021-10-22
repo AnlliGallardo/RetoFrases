@@ -1,0 +1,88 @@
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+
+}
+
+
+header {
+	background: url( "https://www.bing.com/images/search?view=detailV2&ccid=UM4s0T7S&id=1ACC85639043D063D965390CA2534A8FCC0525ED&thid=OIP.UM4s0T7S56cyxXq-erGc8AHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.50ce2cd13ed2e7a732c57abe7ab19cf0%3frik%3d7SUFzI9KU6IMOQ%26riu%3dhttp%253a%252f%252f3.bp.blogspot.com%252f-ll15GKfuAfU%252fUD_QRuRT3SI%252fAAAAAAAAi-w%252f_VQ08qSDwAE%252fs1600%252fLibros-Viejos-Apilados_Imagenes-de-Libros.jpg%26ehk%3dITajz1yk%252bQeZz6zZHmcxf5Xbt89WsaenbI3pTQzlkcw%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1000&expw=1600&q=imagenes+de+libros&simid=608005745364836009&FORM=IRPRST&ck=1920913A885EE20410EE9C2F3E213058&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0" ) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+}
+
+header h1 {
+	display: inline;
+	color: #FFEBA7;
+}
+
+header small {
+	color: #FFD339;
+}
+
+.quote-box {
+	margin: 0 auto;
+	width: 65%;
+    
+  	text-align: center;
+    background-color:#ffffff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding: 60px;	
+
+	-moz-box-shadow: 0px 0px 10px #000000;
+	-webkit-box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #000000;
+	
+
+}
+
+
+.quote {
+	font-size: 1.5em;
+}
+
+.author {
+ 	
+	font-size:1.2em;
+}
+.buttons {
+
+    margin: auto;
+    display: block;
+}
+    .button {
+      height: 38px;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #333;
+      outline: none;
+      font-size: 0.85em;
+      padding: 8px 18px 6px 18px;
+
+      opacity: 1;
+      cursor: pointer;}
+ .button:hover {
+        opacity: 0.9;
+      }
+ #tweet-quote,
+ #tumblr-quote {
+        float: left;
+        padding: 0px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 5px;
+        height: 30px;
+        width: 40px;
+      }
+#new-quote {
+        float: right;
+      }
+
+ 
